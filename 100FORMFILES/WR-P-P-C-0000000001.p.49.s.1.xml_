@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><alpino_ds version="1.3">
+  <node begin="0" cat="top" end="10" id="0" rel="top">
+    <node begin="0" cat="smain" end="9" id="1" rel="--">
+      <node begin="0" cat="np" end="4" id="2" pb="Arg0" rel="su">
+        <node begin="0" end="1" id="3" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="Een"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="4" lemma="vermissing" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="vermissing" word="vermissing"/>
+        <node begin="2" cat="pp" end="4" id="5" rel="mod">
+          <node begin="2" end="3" id="6" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+          <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="7" lemma="zee" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="zee" word="zee"/>
+        </node>
+      </node>
+      <node begin="4" end="5" id="8" lemma="hebben" pb="rel" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="heeft" wvorm="pv"/>
+      <node begin="5" cat="np" end="9" id="9" pb="Arg1" rel="obj1">
+        <node begin="5" end="6" id="10" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="6" cat="ap" end="8" id="11" rel="mod">
+          <node begin="6" buiging="zonder" end="7" graad="basis" id="12" lemma="geheel" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="geheel" word="geheel"/>
+          <node begin="7" buiging="zonder" end="8" graad="basis" id="13" lemma="eigen" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="hd" root="eigen" word="eigen"/>
+        </node>
+        <node begin="8" end="9" genus="onz" getal="ev" graad="basis" id="14" lemma="karakter" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="karakter" word="karakter"/>
+      </node>
+    </node>
+    <node begin="9" end="10" id="15" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Een vermissing op zee heeft een geheel eigen karakter .</sentence>
+</alpino_ds>

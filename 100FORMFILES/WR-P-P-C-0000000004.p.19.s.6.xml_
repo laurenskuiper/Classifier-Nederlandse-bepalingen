@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="0" end="1" getal="ev" id="2" lemma="dit" naamval="stan" pb="Arg1" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" root="dit" status="vol" vwtype="aanw" word="Dit"/>
+      <node begin="1" end="2" id="3" lemma="staan" pb="rel" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="sta_los" word="staat" wvorm="pv"/>
+      <node begin="2" end="3" id="4" lemma="uiteraard" pb="ArgM-ADV" pos="adv" postag="BW()" pt="bw" rel="mod" root="uiteraard" word="uiteraard"/>
+      <node begin="3" buiging="zonder" end="4" graad="basis" id="5" lemma="los" pos="part" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="svp" root="los" word="los"/>
+      <node begin="4" cat="pp" end="14" id="6" pb="Arg1" rel="pc">
+        <node begin="4" end="5" id="7" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+        <node begin="5" cat="np" end="14" id="8" rel="obj1">
+          <node begin="5" end="6" id="9" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+          <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="10" lemma="erfdeel" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="erfdeel" word="erfdeel"/>
+          <node begin="7" cat="rel" end="14" id="11" rel="mod">
+            <node begin="7" end="8" getal="ev" id="12" index="1" lemma="dat" naamval="stan" pb="Arg1" pdtype="pron" persoon="3" pos="pron" postag="VNW(betr,pron,stan,vol,3,ev)" pt="vnw" rel="rhd" root="dat" status="vol" vwtype="betr" word="dat"/>
+            <node begin="7" cat="ssub" end="14" id="13" rel="body">
+              <node begin="7" end="8" id="14" index="1" rel="obj1"/>
+              <node begin="8" end="9" getal="mv" id="15" lemma="zij" naamval="nomin" pb="Arg0" pdtype="pron" persoon="3p" pos="pron" postag="VNW(pers,pron,nomin,vol,3p,mv)" pt="vnw" rel="su" root="zij" status="vol" vwtype="pers" word="zij"/>
+              <node begin="9" buiging="zonder" end="10" graad="basis" id="16" lemma="eventueel" pb="ArgM-ADV" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="eventueel" word="eventueel"/>
+              <node begin="10" cat="pp" end="13" id="17" pb="Arg2" rel="pc">
+                <node begin="10" end="11" id="18" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+                <node begin="11" cat="np" end="13" id="19" rel="obj1">
+                  <node begin="11" buiging="zonder" end="12" getal="mv" id="20" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="hun"/>
+                  <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="21" lemma="moeder" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="moeder" word="moeder"/>
+                </node>
+              </node>
+              <node begin="13" end="14" id="22" lemma="erven" pb="rel" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="erf" word="erven" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" id="23" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Dit staat uiteraard los van het erfdeel dat zij eventueel van hun moeder erven .</sentence>
+</alpino_ds>

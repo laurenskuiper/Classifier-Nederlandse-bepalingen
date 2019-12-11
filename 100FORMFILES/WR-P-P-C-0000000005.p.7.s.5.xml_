@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="smain" end="12" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" pb="Arg1" rel="su">
+        <node begin="0" buiging="met-e" end="1" id="3" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" vwtype="aanw" word="Deze"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="4" lemma="folder" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="folder" word="folder"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="geven" pb="rel" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="geef_aan" word="geeft" wvorm="pv"/>
+      <node begin="3" end="4" id="6" lemma="aan" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="aan" vztype="fin" word="aan"/>
+      <node begin="4" cat="whsub" end="12" id="7" pb="Arg1" rel="vc">
+        <node begin="4" end="5" id="8" index="1" lemma="hoe" pb="ArgM-MNR" pos="adj" postag="BW()" pt="bw" rel="whd" root="hoe" word="hoe"/>
+        <node begin="4" cat="ssub" end="12" id="9" rel="body">
+          <node begin="4" end="5" id="10" index="1" rel="mod"/>
+          <node begin="5" end="6" getal="getal" id="11" lemma="u" naamval="nomin" pb="Arg0" pdtype="pron" persoon="2b" pos="pron" postag="VNW(pers,pron,nomin,vol,2b,getal)" pt="vnw" rel="su" root="u" status="vol" vwtype="pers" word="u"/>
+          <node begin="6" end="7" getal="ev" id="12" lemma="dit" naamval="stan" pb="Arg1" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="obj1" root="dit" status="vol" vwtype="aanw" word="dit"/>
+          <node begin="7" cat="pp" end="11" id="13" pb="ArgM-MNR" rel="mod">
+            <node begin="7" end="8" id="14" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" vztype="init" word="op"/>
+            <node begin="8" cat="np" end="11" id="15" rel="obj1">
+              <node begin="8" end="9" id="16" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="9" buiging="met-e" end="10" graad="basis" id="17" lemma="verstandig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="verstandig" word="verstandige"/>
+              <node begin="10" end="11" genus="zijd" getal="ev" graad="basis" id="18" lemma="manier" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="manier" word="manier"/>
+            </node>
+          </node>
+          <node begin="11" end="12" id="19" lemma="doen" pb="rel" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="doe" word="doet" wvorm="pv"/>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" id="20" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Deze folder geeft aan hoe u dit op een verstandige manier doet .</sentence>
+</alpino_ds>

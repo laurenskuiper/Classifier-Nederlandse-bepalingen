@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="10" end="11" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="15" id="2" rel="--">
+      <node begin="0" cat="np" end="10" id="3" rel="su">
+        <node begin="0" end="1" id="4" lemma="bijvoorbeeld" pb="ArgM-DIS" pos="adv" postag="BW()" pt="bw" rel="mod" root="bijvoorbeeld" word="Bijvoorbeeld"/>
+        <node begin="1" end="2" getal="ev" id="5" lemma="iemand" naamval="stan" pb="Arg1" pdtype="pron" persoon="3p" pos="noun" postag="VNW(onbep,pron,stan,vol,3p,ev)" pt="vnw" rel="obj1" root="iemand" status="vol" vwtype="onbep" word="iemand"/>
+        <node begin="2" buiging="zonder" end="3" id="6" lemma="doodschieten" pb="rel" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="schiet_dood" word="doodschieten" wvorm="inf"/>
+        <node begin="3" cat="cp" end="10" id="7" pb="ArgM-CAU" rel="mod">
+          <node begin="3" conjtype="onder" end="4" id="8" lemma="omdat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="omdat" word="omdat"/>
+          <node begin="4" cat="ssub" end="10" id="9" rel="body">
+            <node begin="4" end="5" genus="masc" getal="ev" id="10" lemma="hij" naamval="nomin" pb="Arg0" pdtype="pron" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" root="hij" status="vol" vwtype="pers" word="hij"/>
+            <node begin="5" end="6" getal="mv" graad="basis" id="11" lemma="appel" ntype="soort" pb="Arg1" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" root="appel" word="appels"/>
+            <node begin="6" cat="pp" end="9" id="12" pb="Arg2" rel="mod">
+              <node begin="6" end="7" id="13" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" vztype="init" word="uit"/>
+              <node begin="7" cat="np" end="9" id="14" rel="obj1">
+                <node begin="7" end="8" id="15" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="16" lemma="tuin" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="tuin" word="tuin"/>
+              </node>
+            </node>
+            <node begin="9" end="10" id="17" lemma="stelen" pb="rel" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="steel" word="steelt" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+      <node begin="11" end="12" id="18" lemma="zijn" pb="rel" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="Is" wvorm="pv"/>
+      <node begin="12" cat="pp" end="15" id="19" rel="predc">
+        <node begin="12" end="13" id="20" lemma="buiten" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="buiten" vztype="init" word="buiten"/>
+        <node begin="13" cat="np" end="15" id="21" rel="obj1">
+          <node begin="13" buiging="met-e" end="14" id="22" lemma="al" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,agr)" pt="vnw" rel="det" root="alle" vwtype="onbep" word="alle"/>
+          <node begin="14" end="15" getal="mv" graad="basis" id="23" lemma="proportie" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="proportie" word="proporties"/>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="24" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Bijvoorbeeld iemand doodschieten omdat hij appels uit de tuin steelt , Is buiten alle proporties .</sentence>
+</alpino_ds>

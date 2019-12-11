@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><alpino_ds version="1.3">
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="9" end="10" id="1" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" word=":"/>
+    <node begin="10" end="11" id="2" lemma="·" pos="tag" postag="LET()" pt="let" rel="--" root="·" word="·"/>
+    <node begin="0" cat="du" end="14" id="3" rel="--">
+      <node begin="0" cat="whq" end="9" id="4" rel="nucl">
+        <node begin="0" end="1" getal="ev" id="5" index="1" lemma="wat" naamval="stan" pb="Arg1" pdtype="pron" persoon="3o" pos="pron" postag="VNW(vb,pron,stan,vol,3o,ev)" pt="vnw" rel="whd" root="wat" status="vol" vwtype="vb" word="Wat"/>
+        <node begin="0" cat="sv1" end="9" id="6" rel="body">
+          <node begin="1" end="2" id="7" lemma="kunnen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="kan" word="kunt" wvorm="pv"/>
+          <node begin="2" end="3" getal="getal" id="8" index="2" lemma="u" naamval="nomin" pdtype="pron" persoon="2b" pos="pron" postag="VNW(pers,pron,nomin,vol,2b,getal)" pt="vnw" rel="su" root="u" status="vol" vwtype="pers" word="u"/>
+          <node begin="0" cat="inf" end="9" id="9" rel="vc">
+            <node begin="0" end="1" id="10" index="1" rel="obj1"/>
+            <node begin="2" end="3" id="11" index="2" rel="su"/>
+            <node begin="3" buiging="zonder" end="4" id="12" lemma="doen" pb="rel" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="doe" word="doen" wvorm="inf"/>
+            <node begin="4" cat="oti" end="9" id="13" pb="Arg2" rel="mod">
+              <node begin="4" end="5" id="14" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" vztype="init" word="om"/>
+              <node begin="5" cat="ti" end="9" id="15" rel="body">
+                <node begin="7" end="8" id="16" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" vztype="init" word="te"/>
+                <node begin="5" cat="inf" end="9" id="17" rel="body">
+                  <node begin="5" cat="np" end="7" id="18" pb="Arg1" rel="obj1">
+                    <node begin="5" end="6" id="19" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="de"/>
+                    <node begin="6" end="7" getal="mv" graad="basis" id="20" lemma="risico" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="risico" word="risico's"/>
+                  </node>
+                  <node begin="8" buiging="zonder" end="9" id="21" lemma="verkleinen" pb="rel" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="verklein" word="verkleinen" wvorm="inf"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="11" cat="sv1" end="14" id="22" rel="sat">
+        <node begin="11" end="12" id="23" lemma="sporten" pb="rel" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="sport" word="Sport" wvorm="pv"/>
+        <node begin="12" end="13" id="24" lemma="niet" pb="ArgM-ADV" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" word="niet"/>
+        <node begin="13" end="14" id="25" lemma="alleen" pb="ArgM-ADV" pos="adj" postag="BW()" pt="bw" rel="mod" root="alleen" word="alleen"/>
+      </node>
+    </node>
+    <node begin="14" end="15" id="26" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Wat kunt u doen om de risico's te verkleinen : · Sport niet alleen .</sentence>
+</alpino_ds>
