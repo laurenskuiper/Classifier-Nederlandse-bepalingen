@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><alpino_ds version="1.3">
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="9" end="10" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="15" id="2" rel="--">
+      <node begin="0" cat="np" end="4" id="3" index="1" pb="Arg1" rel="su">
+        <node begin="0" buiging="zonder" end="1" graad="basis" id="4" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,basis)" pt="vnw" rel="det" root="veel" vwtype="onbep" word="Veel"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="5" lemma="vorm" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="vorm" word="vormen"/>
+        <node begin="2" cat="pp" end="4" id="6" rel="mod">
+          <node begin="2" end="3" id="7" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" vztype="init" word="van"/>
+          <node begin="3" end="4" genus="zijd" getal="ev" graad="basis" id="8" lemma="epilepsie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" root="epilepsie" word="epilepsie"/>
+        </node>
+      </node>
+      <node begin="4" end="5" id="9" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" word="worden" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="15" id="10" rel="vc">
+        <node begin="0" end="4" id="11" index="1" rel="obj1"/>
+        <node begin="5" end="6" id="12" lemma="echter" pb="ArgM-DIS" pos="adv" postag="BW()" pt="bw" rel="mod" root="echter" word="echter"/>
+        <node begin="6" buiging="zonder" end="7" id="13" lemma="veroorzaken" pb="rel" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="veroorzaak" word="veroorzaakt" wvorm="vd"/>
+        <node begin="7" cat="pp" end="15" id="14" pb="Arg0" rel="mod">
+          <node begin="7" end="8" id="15" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" vztype="init" word="door"/>
+          <node begin="8" cat="conj" end="15" id="16" rel="obj1">
+            <node begin="8" end="9" genus="zijd" getal="ev" graad="basis" id="17" lemma="aanleg" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" root="aanleg" word="aanleg"/>
+            <node begin="10" cat="np" end="12" id="18" rel="cnj">
+              <node begin="10" end="11" id="19" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="20" lemma="hersenziekte" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="hersen_ziekte" word="hersenziekte"/>
+            </node>
+            <node begin="12" conjtype="neven" end="13" id="21" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" word="of"/>
+            <node begin="13" cat="np" end="15" id="22" rel="cnj">
+              <node begin="13" end="14" id="23" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+              <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="24" lemma="hersenbeschadiging" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="hersenbeschadiging" word="hersenbeschadiging"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" id="25" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Veel vormen van epilepsie worden echter veroorzaakt door aanleg , een hersenziekte of een hersenbeschadiging .</sentence>
+</alpino_ds>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><alpino_ds version="1.3">
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="13" end="14" id="1" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" word="("/>
+    <node begin="0" cat="smain" end="15" id="2" rel="--">
+      <node begin="0" cat="np" end="7" id="3" pb="Arg0" rel="su">
+        <node begin="0" end="1" id="4" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" word="De"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="5" lemma="politie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="politie" word="politie"/>
+        <node begin="2" cat="pp" end="4" id="6" rel="mod">
+          <node begin="2" end="3" id="7" lemma="te" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="te" vztype="init" word="te"/>
+          <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="8" lemma="water" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" root="water" word="water"/>
+        </node>
+        <node begin="4" cat="pp" end="7" id="9" rel="mod">
+          <node begin="4" end="5" id="10" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" vztype="init" word="in"/>
+          <node begin="5" cat="mwu" end="7" id="11" rel="obj1">
+            <node begin="5" end="6" id="12" lemma="Den" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Den" spectype="deeleigen" word="Den"/>
+            <node begin="6" end="7" id="13" lemma="Helder" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Helder" spectype="deeleigen" word="Helder"/>
+          </node>
+        </node>
+      </node>
+      <node begin="7" end="8" id="14" lemma="hebben" pb="rel" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="heeft" wvorm="pv"/>
+      <node begin="8" cat="np" end="15" id="15" pb="Arg1" rel="obj1">
+        <node begin="8" end="9" id="16" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="een"/>
+        <node begin="9" cat="mwu" end="13" id="17" rel="hd">
+          <node begin="9" end="10" genus="onz" getal="ev" graad="basis" id="18" lemma="bureau" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="Bureau" word="Bureau"/>
+          <node begin="10" buiging="met-e" end="11" graad="basis" id="19" lemma="vermist" naamval="stan" pos="name" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mwp" root="Vermiste" word="Vermiste"/>
+          <node begin="11" end="12" getal="mv" graad="basis" id="20" lemma="persoon" ntype="soort" pos="name" postag="N(soort,mv,basis)" pt="n" rel="mwp" root="Personen" word="Personen"/>
+          <node begin="12" end="13" genus="zijd" getal="ev" graad="basis" id="21" lemma="Noordzee" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Noordzee" word="Noordzee"/>
+        </node>
+        <node begin="14" end="15" genus="zijd" getal="ev" graad="basis" id="22" lemma="BVPN" naamval="stan" ntype="soort" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mod" root="BVPN" word="BVPN"/>
+      </node>
+    </node>
+    <node begin="15" end="16" id="23" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" word=")"/>
+    <node begin="16" end="17" id="24" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>De politie te water in Den Helder heeft een Bureau Vermiste Personen Noordzee ( BVPN ) .</sentence>
+</alpino_ds>

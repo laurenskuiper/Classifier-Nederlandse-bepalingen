@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="0" cat="np" end="4" id="2" pb="Arg1" rel="su">
+        <node begin="0" end="1" id="3" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" word="Een"/>
+        <node begin="1" end="2" genus="genus" getal="ev" graad="basis" id="4" lemma="paar" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,genus,stan)" pt="n" rel="hd" root="paar" word="paar"/>
+        <node begin="2" cat="np" end="4" id="5" rel="mod">
+          <node begin="2" end="3" getal="mv" graad="basis" id="6" lemma="week" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="week" word="weken"/>
+          <node begin="3" end="4" genus="onz" getal="ev" graad="basis" id="7" lemma="voetbalfeest" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mod" root="voetbal_feest" word="voetbalfeest"/>
+        </node>
+      </node>
+      <node begin="4" end="5" id="8" lemma="zijn" pb="rel" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+      <node begin="5" cat="whrel" end="11" id="9" rel="predc">
+        <node begin="5" end="6" id="10" lemma="net" pos="adj" postag="BW()" pt="bw" rel="mod" root="net" word="net"/>
+        <node begin="6" end="7" getal="ev" id="11" index="1" lemma="wat" naamval="stan" pb="Arg1" pdtype="pron" persoon="3o" pos="pron" postag="VNW(vb,pron,stan,vol,3o,ev)" pt="vnw" rel="rhd" root="wat" status="vol" vwtype="vb" word="wat"/>
+        <node begin="6" cat="ssub" end="11" id="12" rel="body">
+          <node begin="6" end="7" id="13" index="1" rel="obj1"/>
+          <node begin="7" cat="np" end="9" id="14" pb="Arg0" rel="su">
+            <node begin="7" end="8" id="15" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" word="het"/>
+            <node begin="8" end="9" genus="onz" getal="ev" graad="basis" id="16" lemma="land" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="land" word="land"/>
+          </node>
+          <node begin="9" buiging="zonder" end="10" graad="basis" id="17" lemma="nodig" pb="Arg1" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="nodig" word="nodig"/>
+          <node begin="10" end="11" id="18" lemma="hebben" pb="rel" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="heeft" wvorm="pv"/>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" id="19" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+    <node begin="12" end="13" id="20" lemma="''" pos="punct" postag="LET()" pt="let" rel="--" root="''" word="''"/>
+  </node>
+  <sentence>Een paar weken voetbalfeest is net wat het land nodig heeft . ''</sentence>
+</alpino_ds>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><alpino_ds version="1.3">
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="smain" end="13" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" pb="Arg0" rel="su">
+        <node begin="0" buiging="zonder" end="1" getal="mv" id="3" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pt="vnw" rel="det" root="hun" status="vol" vwtype="bez" word="Hun"/>
+        <node begin="1" end="2" genus="zijd" getal="ev" graad="basis" id="4" lemma="actie" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="actie" word="actie"/>
+      </node>
+      <node begin="2" end="3" id="5" lemma="treffen" pb="rel" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="tref" word="trof" wvorm="pv"/>
+      <node begin="3" cat="np" end="5" id="6" pb="ArgM-TMP" rel="mod">
+        <node begin="3" buiging="zonder" end="4" id="7" lemma="dit" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dit" vwtype="aanw" word="dit"/>
+        <node begin="4" end="5" genus="onz" getal="ev" graad="basis" id="8" lemma="weekeinde" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="weekeinde" word="weekeinde"/>
+      </node>
+      <node begin="5" cat="conj" end="13" id="9" pb="Arg1" rel="obj1">
+        <node begin="5" cat="np" end="8" id="10" rel="cnj">
+          <node begin="5" buiging="met-e" end="6" id="11" lemma="enkel" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="enkel" vwtype="onbep" word="enkele"/>
+          <node begin="6" end="7" getal-n="mv-n" graad="basis" id="12" lemma="duizend" numtype="hoofd" pos="noun" positie="nom" postag="TW(hoofd,nom,mv-n,basis)" pt="tw" rel="hd" root="duizenden" word="duizenden"/>
+          <node begin="7" end="8" getal="mv" graad="basis" id="13" lemma="Nederlander" ntype="eigen" pos="noun" postag="N(eigen,mv,basis)" pt="n" rel="mod" root="Nederlander" word="Nederlanders"/>
+        </node>
+        <node begin="8" conjtype="neven" end="9" id="14" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="9" cat="np" end="13" id="15" rel="cnj">
+          <node begin="9" end="10" getal-n="mv-n" graad="basis" id="16" lemma="honderdduizend" numtype="hoofd" pos="noun" positie="nom" postag="TW(hoofd,nom,mv-n,basis)" pt="tw" rel="hd" root="honderdduizenden" word="honderdduizenden"/>
+          <node begin="10" cat="conj" end="13" id="17" rel="mod">
+            <node begin="10" end="11" getal="mv" graad="basis" id="18" lemma="Duitser" ntype="eigen" pos="noun" postag="N(eigen,mv,basis)" pt="n" rel="cnj" root="Duitser" word="Duitsers"/>
+            <node begin="11" conjtype="neven" end="12" id="19" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+            <node begin="12" buiging="zonder" end="13" getal-n="mv-n" graad="basis" id="20" lemma="Engels" pos="noun" positie="nom" postag="ADJ(nom,basis,zonder,mv-n)" pt="adj" rel="cnj" root="Engelsman" word="Engelsen"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" id="21" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Hun actie trof dit weekeinde enkele duizenden Nederlanders en honderdduizenden Duitsers en Engelsen .</sentence>
+</alpino_ds>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><alpino_ds version="1.3">
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="conj" end="11" id="1" rel="--">
+      <node begin="0" cat="smain" end="5" id="2" rel="cnj">
+        <node begin="0" end="1" genus="zijd" getal="ev" graad="basis" id="3" lemma="import" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="su" root="import" word="Import"/>
+        <node begin="1" end="2" id="4" lemma="zijn" pb="rel" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" word="is" wvorm="pv"/>
+        <node begin="2" end="3" id="5" lemma="echter" pb="ArgM-DIS" pos="adv" postag="BW()" pt="bw" rel="mod" root="echter" word="echter"/>
+        <node begin="3" cat="ap" end="5" id="6" rel="predc">
+          <node begin="3" end="4" id="7" lemma="vrijwel" pos="adv" postag="BW()" pt="bw" rel="mod" root="vrijwel" word="vrijwel"/>
+          <node begin="4" buiging="zonder" end="5" graad="basis" id="8" lemma="onmogelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="onmogelijk" word="onmogelijk"/>
+        </node>
+      </node>
+      <node begin="5" conjtype="neven" end="6" id="9" lemma="want" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="want" word="want"/>
+      <node begin="6" cat="smain" end="11" id="10" rel="cnj">
+        <node begin="6" end="7" genus="onz" getal="ev" graad="basis" id="11" lemma="Suriname" naamval="stan" ntype="eigen" pb="Arg0" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" root="Suriname" word="Suriname"/>
+        <node begin="7" end="8" id="12" lemma="hebben" pb="rel" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" word="heeft" wvorm="pv"/>
+        <node begin="8" cat="np" end="10" id="13" pb="ArgM-NEG" rel="obj1">
+          <node begin="8" buiging="zonder" end="9" id="14" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" vwtype="onbep" word="geen"/>
+          <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="15" lemma="deviezenvoorraad" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="devies_voorraad" word="deviezenvoorraad"/>
+        </node>
+        <node begin="10" buiging="zonder" end="11" graad="comp" id="16" lemma="veel" naamval="stan" pb="ArgM-TMP" pdtype="grad" pos="adv" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mod" root="meer" vwtype="onbep" word="meer"/>
+      </node>
+    </node>
+    <node begin="11" end="12" id="17" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Import is echter vrijwel onmogelijk want Suriname heeft geen deviezenvoorraad meer .</sentence>
+</alpino_ds>

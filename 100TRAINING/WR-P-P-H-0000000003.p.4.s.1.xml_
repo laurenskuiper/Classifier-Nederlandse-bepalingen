@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><alpino_ds version="1.3">
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="8" end="9" id="1" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," word=","/>
+    <node begin="0" cat="smain" end="12" id="2" rel="--">
+      <node begin="0" cat="np" end="6" id="3" rel="su">
+        <node begin="0" buiging="met-e" end="1" graad="basis" id="4" lemma="ander" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ander" word="Andere"/>
+        <node begin="1" end="2" getal="mv" graad="basis" id="5" lemma="technologiefonds" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="technologiefonds" word="technologiefondsen"/>
+        <node begin="2" cat="rel" end="6" id="6" rel="mod">
+          <node begin="2" end="3" getal="getal" id="7" index="1" lemma="die" naamval="stan" pb="Arg0" pdtype="pron" persoon="persoon" pos="noun" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" root="die" status="vol" vwtype="betr" word="die"/>
+          <node begin="2" cat="ssub" end="6" id="8" rel="body">
+            <node begin="2" end="3" id="9" index="1" rel="su"/>
+            <node begin="3" cat="np" end="5" id="10" pb="Arg1" rel="obj1">
+              <node begin="3" buiging="met-e" end="4" graad="basis" id="11" lemma="goed" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="goed" word="goede"/>
+              <node begin="4" end="5" getal="mv" graad="basis" id="12" lemma="koerswinst" ntype="soort" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" root="koerswinst" word="koerswinsten"/>
+            </node>
+            <node begin="5" end="6" id="13" lemma="pakken" pb="rel" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="pak" word="pakten" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+      <node begin="6" end="7" id="14" lemma="zijn" pb="rel" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="ben" word="waren" wvorm="pv"/>
+      <node begin="7" cat="conj" end="12" id="15" rel="predc">
+        <node begin="7" end="8" genus="zijd" getal="ev" graad="basis" id="16" lemma="UPC" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="UPC" word="UPC"/>
+        <node begin="9" end="10" genus="zijd" getal="ev" graad="basis" id="17" lemma="Philips" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="Philips" word="Philips"/>
+        <node begin="10" conjtype="neven" end="11" id="18" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" word="en"/>
+        <node begin="11" end="12" genus="zijd" getal="ev" graad="basis" id="19" lemma="KPN" naamval="stan" ntype="eigen" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" root="KPN" word="KPN"/>
+      </node>
+    </node>
+    <node begin="12" end="13" id="20" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." word="."/>
+  </node>
+  <sentence>Andere technologiefondsen die goede koerswinsten pakten waren UPC , Philips en KPN .</sentence>
+</alpino_ds>
